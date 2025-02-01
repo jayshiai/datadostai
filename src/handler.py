@@ -28,7 +28,7 @@ def handler(job):
     """ Handler function that will be used to process jobs. """
     job_input = job['input']
     input_type = job_input["type"]
-    lang = job_input["lang"]
+    lang = job_input.get("lang", "en") 
     print(f"Received job with input: {job_input}")
     
     if input_type == "text":
