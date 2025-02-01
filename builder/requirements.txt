@@ -9,3 +9,5 @@ runpod~=1.7.0
 transformers
 torch
 pillow
+nltk
+pickle
