@@ -6,7 +6,7 @@ import nltk
 import re
 import string
 import pickle
-
+import sklearn
 def hindi_tokenizer(text):
     tokens = nltk.word_tokenize(text,language='hindi',preserve_line=True)
 

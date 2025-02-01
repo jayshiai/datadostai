@@ -1,5 +1,7 @@
 {
   "input": {
-    "text": "Hello, get free coupons for your next purchase"
+    "type": "text",
+    "text": "Hello, get free coupons for your next purchase",
+    "lang": "hi"
   }
 }
